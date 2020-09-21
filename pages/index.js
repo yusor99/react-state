@@ -1,18 +1,9 @@
-import { useState, useEffect } from "react";
-
-import Bar from '../com/bar';
-import Foo from '../com/foo'
-const Home = () => {
-  const [todos, setTodos] = useState([]);
-  const [todo, setTodo] = useState("");
-  return (
-    <div className="container">
-      
-        <Bar/>
-        <Foo/>
-      </div>
-    );
-  };
- 
-
+import Form from '../com/form';
+const Home =()=>{
+return( 
+  <div className="container">
+    <Form/>
+    </div>
+)
+}
 export default Home;
